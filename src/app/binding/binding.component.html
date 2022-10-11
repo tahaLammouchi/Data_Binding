@@ -1,0 +1,9 @@
+<p>binding works!</p>
+<h1>{{titre}}</h1>
+<h1>Property binding</h1>
+<button [disabled]="status">Cliquer ici</button>
+<h1>Event binding</h1>
+<button (click)="changerTitre()">Changer Titre</button>
+<h1>Two way binding</h1>
+<input type="text" [(ngModel)]="nom" />
+<h1>Bonjour {{nom}}</h1>
